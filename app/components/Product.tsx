@@ -1,5 +1,6 @@
+'use client'
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 interface ProductForm {
   name: string;
   description: string;
@@ -90,6 +91,7 @@ const Product: React.FC = () => {
             </label>
           </div>
         </div>
+
         <div className="labelwithinput">
           <label className="label" htmlFor="category">
             Select Category:
@@ -100,13 +102,19 @@ const Product: React.FC = () => {
             <option value="category2">Category 2</option>
             <option value="category3">Category 3</option>
           </select>
-        </div>
+</div>
+        
         <br />
-        <button type="submit" className="btn">
+
+        <button type="submit" className="btn formbtn">
           Add
         </button>
       </form>
+
+      
+        <Link to= "/"><button  className="btn">Back</button></Link>
     </div>
+    
   );
 };
 

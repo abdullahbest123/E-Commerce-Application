@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Category: React.FC = () =>
 {
@@ -16,10 +17,12 @@ const Category: React.FC = () =>
                     />
                 </div>
                 <br />
-                <button type="submit" className="btn">
+                <button type="submit" className="btn formbtn">
                     Add
                 </button>
             </form>
+                    <Link to= "/"><button  className="btn">Back</button></Link>
+
         </div>
     );
 };

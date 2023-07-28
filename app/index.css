@@ -263,14 +263,17 @@ ul {
 .form:hover {
   box-shadow: var(--shadow-4);
 }
+.formbtn{
+margin-top: 20px;
+margin-right: 175px;
+}
 .lable{
   min-width: 20px;
   flex-basis: 100%;
   margin-bottom: 5px;
   margin-bottom: 5em;
 }
-.inputt{
-  float: right;
+.inputt{float: right;
 }
 .labelwithinput{
   display: block;

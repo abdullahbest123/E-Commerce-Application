@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 import Image from 'next/image';
 
 const navlink = [
-  { name: 'Home', way: '/test' },
-  { name: 'About', way: '/fa' },
-  { name: 'Product', way: '/b' },
-  { name: 'Login', way: '/sa' }
+  { name: 'Home', way: '/' },
+  { name: 'About', way: '/' },
+  { name: 'Product', way: '/' },
+  { name: 'Login', way: '/' }
 ];
 
 const Navbar = () => {

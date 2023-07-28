@@ -1,22 +1,27 @@
 'use client'
-import { BrowserRouter } from 'react-router-dom';
-// import Product from "./components/Product"
-// import Category from "./components/Category"
-// import SideBar from "./components/SideBar";
-import Navbar from "./components/Navbar";
-import PageHome from "./Pages/Home";
-function Home (): JSX.Element
-{
+// AppRouter.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Link from 'next/link';
+import Product from './components/Product';
+import Category from './components/Category';
+import Navbar from './components/Navbar';
+import SideBar from './components/SideBar';
+
+const AppRouter = () => {
   return (
-    // <Product />
-    <BrowserRouter>
-      <Navbar />
+    <Router>
+      <Navbar/>
+      {/* <SideBar/> */}
+      <Routes>
+        <Route path="/" Component={Home} />
+        <Route path="/add-product" Component={Product} />
+        <Route path="/add-category" Component={Category} />
+        {/* Define more routes here if needed */}
+      </Routes>
+    </Router>
+  );
+};
 
-      <PageHome />
-      {/* <SideBar />
-      <Category /> */}
-    </BrowserRouter>
-  )
-}
-
-export default Home;
+export default AppRouter;

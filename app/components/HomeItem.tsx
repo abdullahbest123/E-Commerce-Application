@@ -1,5 +1,6 @@
+'use client'
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 interface Button {
   name: string;
   link: string;
@@ -9,7 +10,6 @@ interface HomeItemProps {
   heading: string;
   buttons: Button[];
 }
-
 const HomeItem: React.FC<HomeItemProps> = (props) => {
   return (
     <div className="home">
@@ -17,12 +17,14 @@ const HomeItem: React.FC<HomeItemProps> = (props) => {
       <ul className="homelist">
         {props.buttons.map((button, index) => (
           <li key={index}>
-            <button className="btn homebtn">{button.name}</button>
+            {/* Use Link to handle navigation */}
+            <Link to={button.link}><button className="btn homebtn">{button.name}</button></Link>
           </li>
         ))}
       </ul>
     </div>
   );
 };
+
 
 export default HomeItem;

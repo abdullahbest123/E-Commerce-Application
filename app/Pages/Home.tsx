@@ -1,12 +1,15 @@
-import HomeItem from '../components/HomeItem';
+'use client'
 import React from 'react';
+import Link from 'next/link';
+import HomeItem from '../components/HomeItem';
+
 const Home: React.FC = () => {
   return (
     <div className="homeContainer">
       <HomeItem
         heading="Products"
         buttons={[
-          { name: 'Add Product', link: '/' },
+          { name: 'Add Product', link: '/add-product' },
           { name: 'Search Product', link: '/' },
           { name: 'Delete Product', link: '/' },
           { name: 'Update Product', link: '/' },
@@ -15,7 +18,7 @@ const Home: React.FC = () => {
       <HomeItem
         heading="Category"
         buttons={[
-          { name: 'Add Category', link: '/' },
+          { name: 'Add Category', link: '/add-category' },
           { name: 'Search Category', link: '/' },
           { name: 'Delete Category', link: '/' },
           { name: 'Update Category', link: '/' },
