@@ -1,6 +1,8 @@
 'use client'
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "../admin.css"
+
 interface Button {
   name: string;
   link: string;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../../components/AdminSide/admin.css"
 const AllProducts: React.FC = () =>
 {
     return (

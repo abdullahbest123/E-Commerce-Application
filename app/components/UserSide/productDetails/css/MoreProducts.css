@@ -1,0 +1,52 @@
+.containerMP{
+   width: 100%;
+   /* background-color: aqua   ;  */
+}
+
+.productsMP{
+    border: 0.1rem solid  rgba(128, 128, 128, 0.491);
+    width: 100%;
+    border-radius: 0.5rem;
+    display: flex;
+    margin-top: 0.7rem;
+}
+
+.imageMP{
+    width:fit-content;
+    height: 9em;
+    display: flex;
+    overflow: hidden;
+    border-radius: 0.4rem;
+    margin: 0.6rem;
+    filter: drop-shadow(0 0 0.1rem black);
+}
+
+.informationMP{
+    margin: 1.5rem 0 0 1rem;
+}
+
+.nameMP{
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+
+.priceMP{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.qualitiesMP{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.qualitiesMP li{
+    list-style: none;
+    border: 0.11rem solid  rgba(128, 128, 128, 0.491);
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.3rem;
+    color: rgb(62, 62, 255);
+}

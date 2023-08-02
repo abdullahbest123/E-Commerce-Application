@@ -1,7 +1,8 @@
 'use client'
 import React from 'react';
 import Link from 'next/link';
-import HomeItem from '../components/HomeItem';
+import HomeItem from '../../components/AdminSide/Home/HomeItem';
+import "../../components/AdminSide/admin.css"
 
 const Home: React.FC = () => {
   return (
