@@ -15,8 +15,8 @@ const AppRouter = () => {
   return (
     <Router>
       {/* <Navbar/> */}
-      {/* <ProductDetailSection></ProductDetailSection> */}
-      <ReviewsSection></ReviewsSection>
+      <ProductDetailSection></ProductDetailSection>
+      {/* <ReviewsSection></ReviewsSection> */}
       
       {/* <SideBar/> */}
       {/* <Routes>

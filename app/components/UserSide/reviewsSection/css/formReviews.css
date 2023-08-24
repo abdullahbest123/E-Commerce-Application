@@ -9,34 +9,38 @@ body {
   color: white;
 }
 
-.formContainer{
+.formContainer {
   width: 100%;
 }
 
 h2 {
   font-size: 2rem;
 }
-.h2{
+
+.h2 {
   padding-left: 3em;
 }
+
 label {
   font-size: 1.35rem;
-  
+
 }
 
 select {
   width: 2000px;
   color: white;
 }
-select.input{
+
+select.input {
   color: white;
   min-width: 376px !important;
 }
-option{
+
+option {
   background: rgb(177, 172, 172);
 }
 
-.mainContainer{
+.mainContainer {
   display: flex;
   flex-direction: row;
 }
@@ -102,9 +106,10 @@ form {
   border-radius: 10px;
   backdrop-filter: blur(5px);
   box-shadow: 4px 4px 5px rgba(54, 6, 6, 0.2);
-  
-  
+
+
 }
+
 img {
   width: 85px;
   height: 85px;
@@ -112,41 +117,47 @@ img {
   border-radius: 50%;
   box-shadow: var(--light-shadow);
 }
+
 .rating {
   display: flex;
   flex-direction: row;
-  
+
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
   align-items: center;
 }
-.abc{
- 
+
+.abc {
+
   display: flex;
   flex-direction: row;
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
-padding-left: 50px;
-  
-  
-}
-.ratex{
-  font-size: 25px;
-}
-.subdiv{
-  margin-bottom: -12px;
-}
-.review{
-  margin-left: 40px;
-  padding-bottom: 50px;
-width: 50%;
+  padding-left: 50px;
+
+
 }
 
-h4{
+.ratex {
+  font-size: 25px;
+}
+
+.subdiv {
+  margin-bottom: -12px;
+}
+
+.review {
+  margin-left: 40px;
+  padding-bottom: 50px;
+  width: 50%;
+}
+
+h4 {
   font-size: 20px;
   margin-top: 14px;
 }
-.data{
+
+.data {
   padding-left: 10px;
   min-width: 100%;
 }
@@ -154,16 +165,19 @@ h4{
 h4::first-letter {
   text-transform: uppercase;
 }
-.date{
+
+.date {
   position: static;
   float: right;
   padding-left: 20px;
   margin-top: -10px;
 }
-.main{
+
+.main {
   position: relative;
-  top:10%
+  top: 10%
 }
-textarea{
-  color:white !important;
+
+textarea {
+  color: white !important;
 }
